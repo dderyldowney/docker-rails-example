@@ -53,6 +53,15 @@ group :development, :test do
   gem "bootsnap", require: false
 end
 
+group :development, :test do
+  gem "rspec-rails"
+  gem "factory_bot_rails"
+  gem "faker"
+  gem "database_cleaner"
+  gem "pry-byebug"
+  gem "pry-rails"
+end
+  
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
